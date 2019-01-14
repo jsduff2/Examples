@@ -1,0 +1,56 @@
+/* 
+    Document   : layout
+    Created on : Apr 19, 2009, 12:32:36 PM
+    Author     : jsduff2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#container {
+  margin:auto;
+  width: 760px;
+  background: #ffffff;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header {
+background: #DDDDDD;
+}
+
+#leftBar {
+float: left;
+width: 150px;
+background: #EBEBEB;
+}
+
+#content {
+float:left;
+width:450px;
+background-color: #cdcde6;
+}
+
+#rightBar {
+float:right;
+width: 160px;
+background: #EBEBEB;
+}
+
+#footer {
+clear:both;
+background:#DDDDDD;
+}
+
